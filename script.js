@@ -54,7 +54,7 @@ const taula = {
         casella.id = `casella ${x + 1},${y + 1}`;
         const input = document.createElement("div");
         casella.appendChild(input);
-        input.className = "of";
+        input.classList.add('of');
         input.setAttribute("maxLength", 1);
         input.id = `input ${x + 1},${y + 1}`;
       }
