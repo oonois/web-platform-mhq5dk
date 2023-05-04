@@ -76,3 +76,11 @@ newTaulell.addEventListener(click, taula.crearTaulell(10));
  */
 taula.crearTaulell(15);
 taula.recorre(crucigrama, 1);
+
+const vertHoritz = document.getElementById('vertHoritz');
+vertHoritz.addEventListener('mouseUp', function(){
+  if(document.getElementById('vertHoritz').checked){
+    //imputs focus horitzontal
+  }
+  vertical
+})
