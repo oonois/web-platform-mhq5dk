@@ -7,7 +7,6 @@ body {
   font-family: system-ui, sans-serif;
   color: black;
   background-color: white;
-  
 }
 input {
   width: 100%;
@@ -16,13 +15,12 @@ input {
   outline: none;
 }
 .contenidor {
-  
   background-color: black;
   width: min-content;
   height: min-content;
   padding: 5px;
 }
-.fila{
+.fila {
   display: flex;
 }
 .casella {
@@ -30,17 +28,16 @@ input {
   height: 25px;
   background-color: rgb(24, 23, 23);
   margin: 2px;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-.activa{
+.activa {
   background-color: white;
 }
 .of {
   display: none;
 }
-
 .on {
   display: block;
 }
@@ -50,11 +47,6 @@ input {
   background-color: black;
   color: white;
 }
-
-
-/*
-proba boto toggle
-*/
 
 .switch {
   position: relative;

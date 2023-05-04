@@ -10,7 +10,7 @@ function Paraula(paraula, horitzontal, posInicial, descripcio) {
       let casella = document.getElementById(`casella ${posicio}`);
       let input = document.getElementById(`input ${posicio}`);
       casella.classList.add("activa");
-      input.classList.remove('of')
+      input.classList.remove("of");
       input.classList.add("on");
       let arrayPos = posicio.split(",");
       if (horitzontal) {
@@ -54,7 +54,7 @@ const taula = {
         casella.id = `casella ${x + 1},${y + 1}`;
         const input = document.createElement("input");
         casella.appendChild(input);
-        input.classList.add('of');
+        input.className = "of";
         input.setAttribute("maxLength", 1);
         input.id = `input ${x + 1},${y + 1}`;
       }
@@ -77,10 +77,4 @@ newTaulell.addEventListener(click, taula.crearTaulell(10));
 taula.crearTaulell(15);
 taula.recorre(crucigrama, 1);
 
-const vertHoritz = document.getElementById('vertHoritz');
-vertHoritz.addEventListener('mouseUp', function(){
-  if(document.getElementById('vertHoritz').checked){
-    //imputs focus horitzontal
-  }
-  vertical
-})
+
