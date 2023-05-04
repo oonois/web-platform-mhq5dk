@@ -52,7 +52,7 @@ const taula = {
         fila.appendChild(casella);
         casella.className = "casella";
         casella.id = `casella ${x + 1},${y + 1}`;
-        const input = document.createElement("div");
+        const input = document.createElement("input");
         casella.appendChild(input);
         input.classList.add('of');
         input.setAttribute("maxLength", 1);
